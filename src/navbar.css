@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 55px;
+}
+
+.hamburger {
+  height: 20px;
+  width: 25px;
+  margin-top: 15px;
+  margin-right: 55px;
+}
+
+.logo {
+  width: 50px;
+}

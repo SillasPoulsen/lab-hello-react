@@ -1,0 +1,27 @@
+.sellingpoints {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  min-height: 400px;
+  align-items: baseline;
+}
+
+.sellingpoint {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.sellingpoint > img {
+  margin: 0px;
+  max-width: 150px;
+}
+
+@media screen and (max-width: 850px) {
+  .sellingpoints {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
